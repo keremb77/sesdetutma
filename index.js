@@ -2,9 +2,27 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 const chalk = require('chalk');
+const Canvas = require('canvas')
+    , Image = Canvas.Image
+    , Font = Canvas.Font
+    , path = require('path');
+const snekfetch = require('snekfetch');
 const fs = require('fs');
+const DBL = require('dblapi.js');
+
+const YouTube = require('simple-youtube-api');
+const queue = new Map();  
+
+const ytdl = require('ytdl-core');
+const dbl = new DBL(ayarlar.dbl, client) 
+
+const generator = require('generate-password');
+const math = require('math-expression-evaluator')
 const db = require('quick.db')
 const moment = require('moment');
+const ms = require('parse-ms');
+const GIFEncoder = require('gifencoder');
+require('moment-duration-format')
 require('./util/eventLoader')(client);
 
 var prefix = ayarlar.prefix;
@@ -142,14 +160,13 @@ var kontrol2;
   ctx.arc(180, 46, 36, 0, 2 * Math.PI);
     ctx.clip();
   ctx.drawImage(avatar, 143,10, 73, 72  );
-  const attachment = new Discord.Attachment(canvas.toBuffer(), 'güvenlik.png');
   
-   let embed = new Discord.RichEmbed()
-.setDescription(kontrol2)
-.setImage(attachment)
-.setFooter(client.user.username, client.user.avatarURL)
-     
-    client.channels.get(kanal).sendEmbed(embed)
+  const attachment = new Discord.Attachment(canvas.toBuffer(), 'güvenlik.png');
+  var i = new Discord.Attachment(attachment)
+//let girisembed = new Discord.RichEmbed()
+
+
+client.channels.get(kanal).sendEmbed(new Discord.RichEmbed().setDescription(kontrol2).setImage(i).setFooter(client.user.username, client.user.avatarURL).setColor("RANDOM"));
 });
 
 client.login(ayarlar.token);
