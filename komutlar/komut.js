@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-exports.run = function(client, message, args) {
+exports.run = async(client, message, args) => {
 
 if (!message.author.hasPermission("KULLANA BILECEK YETKI İSMİ")) return message.channel.send("⚠ Bu Komutu Kullana Bilmek için `KULLANA BILECEK YETKI İSMİ` Yetkisine Sahip Olmalısın!")
 
