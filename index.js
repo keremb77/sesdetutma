@@ -97,13 +97,6 @@ client.unload = command => {
   });
 };
 
-
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('Aleyküm selam,  hoş geldin ^^');
-  }
-});
-
 client.elevation = message => {
   if(!message.guild) {
 	return; }
@@ -127,46 +120,5 @@ client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
 
-client.on('guildMemberAdd',async member => {
-  let user = client.users.get(member.id);
-  let kanal = await db.fetch(`güvenlik_${member.guild.id}`)
-  if (!kanal) return 
-       const Canvas = require('canvas')
-       const canvas = Canvas.createCanvas(360,100);
-       const ctx = canvas.getContext('2d');
-  
-  const resim1 = await Canvas.loadImage('https://cdn.discordapp.com/attachments/612020865684602904/631235167268241449/gvnlk-spheli.png')
-    const resim2 = await Canvas.loadImage('https://cdn.discordapp.com/attachments/597433546868654106/627427731407241226/gvnlk-gvnli.png')
-    const kurulus = new Date().getTime() - user.createdAt.getTime();
-    const gün = moment(kurulus).format('dddd');  
-    var kontrol;
-var kontrol2;
-      if (kurulus > 2629800000) kontrol = resim2
-    if (kurulus < 2629800000) kontrol = resim1
-
-      if (kurulus > 2629800000) kontrol2 = `${member.user.tag} güvenli değil!`
-    if (kurulus < 2629800000) kontrol2 = `${member.user.tag} güvenli`
-
-       const background = await Canvas.loadImage('https://cdn.discordapp.com/attachments/597433546868654106/627425996454232064/gvnlk-arka.png');
-       ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
-   
-
-  const avatar = await Canvas.loadImage(member.user.displayAvatarURL);
-  ctx.drawImage(kontrol,0,0,canvas.width, canvas.height)
-  ctx.beginPath();
-    ctx.lineWidth = 4;
-  ctx.fill()
-    ctx.lineWidth = 4;
-  ctx.arc(180, 46, 36, 0, 2 * Math.PI);
-    ctx.clip();
-  ctx.drawImage(avatar, 143,10, 73, 72  );
-  
-  const attachment = new Discord.Attachment(canvas.toBuffer(), 'güvenlik.png');
-  var i = new Discord.Attachment(attachment)
-//let girisembed = new Discord.RichEmbed()
-
-
-client.channels.get(kanal).sendEmbed(new Discord.RichEmbed().setDescription(kontrol2).setImage(i).setFooter(client.user.username, client.user.avatarURL).setColor("RANDOM"));
-});
-
+////////KOMUTLAR BURDAN SONRA
 client.login(ayarlar.token);
