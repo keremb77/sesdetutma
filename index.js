@@ -1,3 +1,16 @@
+const http = require('http');
+const express = require('express');
+const app = express();
+app.get("/", (request, response) => {
+  console.log(Date.now() + " BERK");
+  response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+setInterval(() => {
+  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+}, 280000)
+
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
@@ -121,4 +134,7 @@ client.on('error', e => {
 });
 
 ////////KOMUTLAR BURDAN SONRA
+
+
+
 client.login(ayarlar.token);
