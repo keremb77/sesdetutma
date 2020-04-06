@@ -22,13 +22,9 @@ const Canvas = require('canvas')
 const snekfetch = require('snekfetch');
 const fs = require('fs');
 const DBL = require('dblapi.js');
-
 const YouTube = require('simple-youtube-api');
 const queue = new Map();  
-
 const ytdl = require('ytdl-core');
-const dbl = new DBL(ayarlar.dbl, client) 
-
 const generator = require('generate-password');
 const math = require('math-expression-evaluator')
 const db = require('quick.db')
