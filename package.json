@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "canvas": "^2.6.1",
-    "canvas-constructor": "^3.2.0",
+    "canvas-constructor": "^4.1.0",
     "chalk": "^4.1.0",
     "cleverbot-node": "^0.3.11",
     "colors": "^1.4.0",
@@ -37,7 +37,7 @@
     "instagram-user": "^2.0.1",
     "is-url": "^1.2.4",
     "jimp": "^0.14.0",
-    "js-base64": "^3.0.3",
+    "js-base64": "^3.4.4",
     "js-robloxapi": "^1.0.6",
     "kratos": "^2.3.3",
     "math-expression-evaluator": "^1.2.22",
@@ -57,15 +57,15 @@
     "server.js": "^1.0.0",
     "simple-youtube-api": "^5.2.1",
     "snekfetch": "^4.0.4",
-    "sqlite": "^4.0.10",
+    "sqlite": "^4.0.12",
     "steam-provider": "^0.2.0",
     "steamcommunity": "^3.41.6",
     "superagent": "^5.3.1",
     "tcmb-doviz": "^1.0.6",
-    "twemoji": "^13.0.0",
+    "twemoji": "^13.0.1",
     "user-instagram": "^2.0.8",
     "weather-js": "^2.0.0",
-    "ytdl-core": "^3.1.2"
+    "ytdl-core": "^3.2.0"
   },
   "engines": {
     "node": "8.x"

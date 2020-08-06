@@ -1,6 +1,6 @@
 dependencies:
   canvas: 2.6.1
-  canvas-constructor: 3.2.0
+  canvas-constructor: 4.1.0
   chalk: 4.1.0
   cleverbot-node: 0.3.11
   colors: 1.4.0
@@ -26,7 +26,7 @@ dependencies:
   instagram-user: 2.0.1
   is-url: 1.2.4
   jimp: 0.14.0
-  js-base64: 3.0.4
+  js-base64: 3.4.4
   js-robloxapi: 1.0.6
   kratos: 2.3.3
   math-expression-evaluator: 1.2.22
@@ -46,15 +46,15 @@ dependencies:
   server.js: 1.0.0
   simple-youtube-api: 5.2.1
   snekfetch: 4.0.4
-  sqlite: 4.0.11
+  sqlite: 4.0.12
   steam-provider: 0.2.0
   steamcommunity: 3.41.6
   superagent: 5.3.1
   tcmb-doviz: 1.0.6
-  twemoji: 13.0.0
+  twemoji: 13.0.1
   user-instagram: 2.0.8
   weather-js: 2.0.0
-  ytdl-core: 3.1.2
+  ytdl-core: 3.2.0
 packages:
   /@babel/runtime/7.10.5:
     dependencies:
@@ -863,14 +863,14 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-MvxLn82vhF/N9+c7uXysImHwqwo=
-  /canvas-constructor/3.2.0:
+  /canvas-constructor/4.1.0:
     dev: false
     engines:
       node: '>=8.6.0'
     peerDependencies:
       canvas: '*'
     resolution:
-      integrity: sha512-m62c2LCwctkvs1jLGS/zz74g/uIKF2agx/lJU53XYLDfDnxh37pioXoHYECdv6UeDNeyVhDgn88H8YDA6RFhEw==
+      integrity: sha512-IWZ80DeKIODMnZS1ygaalM7AYaa02KeTnMzMmLhuUK/K1p+pmetMPu6ab9DAT7HsmC9H/xHMn/oSH0K/EnEbYQ==
   /canvas/2.6.1:
     dependencies:
       nan: 2.14.0
@@ -2525,10 +2525,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-3Yt0J4snEC0p32Pq4oMIqM+htYM=
-  /js-base64/3.0.4:
+  /js-base64/3.4.4:
     dev: false
     resolution:
-      integrity: sha512-H9B8qr6FuL/jfIaS0nQePrZBWtdKqSS9Cp0yTmPkPoVzbo43P6WPpHhYi1hPfl/ZbNRuzRzXOcTCYHWr4W8O2g==
+      integrity: sha512-IydumBqLQUWT5fwcHjVRNiHqEc3xZd44+4qZByAA1FnifCQLQyHnVrnF4F+xAroJHpkRmH2aP4TW6/Qudu34tQ==
   /js-robloxapi/1.0.6:
     dependencies:
       request: 2.88.0
@@ -4103,10 +4103,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-J+FWzZoynJEXGphVIS+XEh3kFSjZX/1i9gFBaWQcB+/tmpe2qUsSBABpcxqxnAxFdiUFEgAX1bjYGQvIZmoz9Q==
-  /sqlite/4.0.11:
+  /sqlite/4.0.12:
     dev: false
     resolution:
-      integrity: sha512-EmihResKgw+me3IkuZB6pTRIPdKp78PH/93U/0qOwLaUwzk2iN4d8LAb23OZ/a3f/rgi0al2PlgkyyN+D4VoRg==
+      integrity: sha512-ZY9rvFrNH+iHS0FNgUgGd6dlj0Gji9hKqwpG8XI+/2djrxUiQj5aS7j3mY0AKhM2jXtJ9UTjrLnwvfUMTAE2/A==
   /sshpk/1.16.1:
     dependencies:
       asn1: 0.2.4
@@ -4472,7 +4472,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-zMaGdskpH8yKjT2RSE/HwE340R4Fm+fbie4AaqjDa4H/l07YUmAvxkSfNl6awVWNRRQ0zdzLQ8SAJZuY5MgstQ==
-  /twemoji/13.0.0:
+  /twemoji/13.0.1:
     dependencies:
       fs-extra: 8.1.0
       jsonfile: 5.0.0
@@ -4480,7 +4480,7 @@ packages:
       universalify: 0.1.2
     dev: false
     resolution:
-      integrity: sha512-JIkoLy0lL7ZlsiUKAOdXTp0o8C15O3CzDzAmnWdeDHpjeifmKDDKX4CyViUj+9g33pIqMr8Uhcy1WLwETr8oNg==
+      integrity: sha512-mrTBq+XpCLM4zm76NJOjLHoQNV9mHdBt3Cba/T5lS1rxn8ArwpqE47mqTocupNlkvcLxoeZJjYSUW0DU5ZwqZg==
   /type-fest/0.8.1:
     dev: false
     engines:
@@ -4779,7 +4779,7 @@ packages:
     dev: false
     resolution:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
-  /ytdl-core/3.1.2:
+  /ytdl-core/3.2.0:
     dependencies:
       html-entities: 1.3.1
       m3u8stream: 0.7.1
@@ -4789,7 +4789,7 @@ packages:
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-H2ja9W9j89TTf+LMQxo1VrdpUNCcjjHnwY6M4NmvgUaQLwNZnIoBwbch4iaT8q75trUK83PzmbihkUBd5Poyfg==
+      integrity: sha512-lzMT3Fp3GplNGVTD8c1eDmoSgqfG9icL+zw23hUdTpHbyOjHcaL5qa54qP7YqGj2NCOjJnoKqxr6Quh5dlEz6Q==
   /zip-stream/1.2.0:
     dependencies:
       archiver-utils: 1.3.0
@@ -4806,7 +4806,7 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   canvas: ^2.6.1
-  canvas-constructor: ^3.2.0
+  canvas-constructor: ^4.1.0
   chalk: ^4.1.0
   cleverbot-node: ^0.3.11
   colors: ^1.4.0
@@ -4832,7 +4832,7 @@ specifiers:
   instagram-user: ^2.0.1
   is-url: ^1.2.4
   jimp: ^0.14.0
-  js-base64: ^3.0.3
+  js-base64: ^3.4.4
   js-robloxapi: ^1.0.6
   kratos: ^2.3.3
   math-expression-evaluator: ^1.2.22
@@ -4852,12 +4852,12 @@ specifiers:
   server.js: ^1.0.0
   simple-youtube-api: ^5.2.1
   snekfetch: ^4.0.4
-  sqlite: ^4.0.10
+  sqlite: ^4.0.12
   steam-provider: ^0.2.0
   steamcommunity: ^3.41.6
   superagent: ^5.3.1
   tcmb-doviz: ^1.0.6
-  twemoji: ^13.0.0
+  twemoji: ^13.0.1
   user-instagram: ^2.0.8
   weather-js: ^2.0.0
-  ytdl-core: ^3.1.2
+  ytdl-core: ^3.2.0
