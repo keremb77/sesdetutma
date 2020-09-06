@@ -7,7 +7,7 @@ if (!message.author.hasPermission("KULLANA BILECEK YETKI İSMİ")) return messag
 
 const embed = new Discord.RichEmbed()
 
-.setColor("MESAJ RENGI INGILIZCE YAZIN")
+.setColor("MESAJ RENGI INGILIZCE YAZIN") //RANDOM yazarsanız rastgele renk atar
 .setTitle("MESAJ BAŞLIĞINIZ")
 .setTimestamp() //Bu Ek Saati'de Yollamaya Yarar
 .setDescription("MESAJINIZ | ACIKLAMANIZ")
@@ -33,4 +33,8 @@ usage: 'Komutun Kullanım Şekli'
 }
 
 
-///BERK
+//erdem 15
+//erdem 15
+//erdem 15
+//erdem 15
+//bunurdaki yazıları kopyalayıp başka komutlar yapabilirsin

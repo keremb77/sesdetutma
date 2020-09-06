@@ -2,7 +2,7 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log(Date.now() + " BERK");
+  console.log(Date.now() + "FWHY CODE uqkzn'ye abone ol"); //dokunma çalışmaz
   response.sendStatus(200);
 });
 app.listen(process.env.PORT);
@@ -134,3 +134,4 @@ client.on('error', e => {
 
 
 client.login(ayarlar.token);
+//-------------—------------—---—————-------KOMUTLAR-----------------------------------------//
