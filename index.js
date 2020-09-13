@@ -137,5 +137,5 @@ client.login(ayarlar.token);
 //-------------—------------—---—————-------Bizimle Alakalı Olan -----------------------------------------//
 
  client.on('ready', ()=>{
- client.channels.get("KanalİD").join()
+ client.channels.get("FwhyCodeKanalID").join()
     }) 
