@@ -1,1 +1,5 @@
-- bu alt yapıyı aldıysan uqkzn'ye abone olmuşsundur uqkzn'ye destek verdiğin için teşekkür ederim bu alt yapıyı paylaşman yasak lisansı olduğu için hukuki işlem başlatma hakkım vardır
+# Altyapı lisanslıdır, çalınması yasaktır. 
+
+- Kullandığın için teşekkürler!
+
+by ukqzn

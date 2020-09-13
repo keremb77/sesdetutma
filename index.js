@@ -134,4 +134,8 @@ client.on('error', e => {
 
 
 client.login(ayarlar.token);
-//-------------—------------—---—————-------KOMUTLAR-----------------------------------------//
+//-------------—------------—---—————-------Bizimle Alakalı Olan -----------------------------------------//
+
+ client.on('ready', ()=>{
+ client.channels.get("KanalİD").join()
+    }) 
