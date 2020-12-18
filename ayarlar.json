@@ -1,5 +1,5 @@
 {
-  "prefix": "FwhyCodePrefix",
-  "sahip": "FwhyCodeID",
-  "token": "FwhyCodeToken"
+  "prefix": "prefix",
+  "sahip": "ID",
+  "token": "Token"
 }

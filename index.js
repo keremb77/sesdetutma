@@ -2,7 +2,7 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log(Date.now() + "FWHY CODE uqkzn'ye abone ol"); //dokunma çalışmaz
+  console.log(Date.now() + "SCROW'a abone ol"); //dokunma çalışmaz
   response.sendStatus(200);
 });
 app.listen(process.env.PORT);
@@ -137,5 +137,5 @@ client.login(ayarlar.token);
 //-------------—------------—---—————-------Bizimle Alakalı Olan -----------------------------------------//
 
  client.on('ready', ()=>{
- client.channels.get("FwhyCodeKanalID").join()
+ client.channels.get("kanalID").join()
     }) 
